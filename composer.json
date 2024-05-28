@@ -1,0 +1,20 @@
+{
+    "name": "vladimore/hexlet",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vladimore\\Hexlet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShowWoodenHorses",
+            "email": "89218452+ShowWoodenHorses@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "slim/psr7": "^1.6",
+        "slim/slim": "^4.13",
+        "slim/php-view": "^3.2"
+    }
+}
